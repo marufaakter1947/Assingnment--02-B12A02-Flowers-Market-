@@ -119,6 +119,8 @@
         justify-content: space-between;
         align-items: center;
         gap: 60px;
+  font-family: "Noto Serif", serif;
+margin-bottom: 100px;
         
       }
       .sub-title{
@@ -206,5 +208,23 @@
   }
 
       /* -----------Plants lover section------------ */
- 
+ .plants-lover-container{
+    flex-direction: column;
+    padding-left: 15px;
+padding-right: 15px;  
+gap: 18px;  
+ }
+ .plants-lover-badge{
+    display: none;
+ }
+ .plants-lover-image img{
+    width: 100%;
+ }
+ .sub-title{
+    font-size: 14px;
+        margin-top: 16px;
+      }
+      .plants-lover-title{
+    font-size: 1.5rem;
+}
 }
