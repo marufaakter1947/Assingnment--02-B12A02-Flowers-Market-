@@ -41,3 +41,18 @@
 .menu-medium{
     color: #000000;
 }
+
+
+/* ----------Media Queries---------- */
+@media screen and (max-width:576px){
+    .navbar{
+        margin: 28px 16px;
+    }
+    .menu-dark,.menu-light{
+        display: none;
+    }
+    .nav-logo img{
+        width: 63px;
+        height: 38px;
+    }
+}
