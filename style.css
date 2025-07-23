@@ -75,4 +75,23 @@
     width: 63px;
     height: 38px;
   }
+  /* ---------banner-------- */
+  .banner{
+    flex-direction: column-reverse;
+    margin-bottom: 65px;
+  }
+  .banner-content{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .banner-image img{
+    width: 100%;
+  }
+  .banner-title{
+    font-size: 1.5rem;
+    margin-top: 28px;
+  }
+  .sub-title{
+    font-size: 14px;
+  }
 }
