@@ -46,6 +46,7 @@
 /* --------------Banner styles--------- */
 .banner{
     display: flex;
+    margin-bottom: 120px;
 }
 .banner-title {
   font-family: "Noto Serif", serif;
@@ -62,6 +63,55 @@
     margin-top: 13px;
 }
 
+  /* --------plants section ------------  */
+  .title{
+    font-size: 3.12rem;
+    font-weight: bold;
+  font-family: "Noto Serif", serif;
+  color:#000000;
+
+  }
+  .title span{
+    color: #E95A08;
+  }
+  .container-header{
+    text-align: center;
+  }
+  .plants-card{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    margin-bottom: 80px;
+  }
+.card{
+    width: 270px;
+}
+.card-content{
+    text-align: center;
+}
+.card-title{
+    font-size: 1.37rem;
+    font-weight: 500;
+    color:#111111;
+    margin-top: 30px;
+}
+.card-price{
+    font-size: 1.37rem;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-btn{
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 270px;
+    border: none;
+}
 /* ----------Media Queries---------- */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -94,4 +144,5 @@
   .sub-title{
     font-size: 14px;
   }
+  /* --------plants section ------------  */
 }
