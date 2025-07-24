@@ -111,6 +111,10 @@
   width: 270px;
   border: none;
 }
+.card-btn:hover {
+  cursor: pointer;
+  background-color: #252432;
+}
 
 /* -----------Plants lover section------------ */
 .plants-lover-container {
@@ -149,7 +153,17 @@
   left: 350px;
   top: -140px;
 }
-
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin infinite 3s linear;
+}
 /* --------------latest deal section-------------- */
 .latest-deal {
   margin-bottom: 120px;
