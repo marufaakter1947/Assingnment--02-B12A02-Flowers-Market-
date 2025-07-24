@@ -295,4 +295,26 @@
     font-size: 1.5rem;
   }
   /* --------------latest deal section-------------- */
+  .deal-container {
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 60px;
+}
+.img1,.img2,.img3{
+     width: 361px;
+  height: 180px;
+  margin: 0 auto;
+}
+.deal-content1{
+    margin: 0 auto;
+}
+.img3 .deal-image-left {
+  font-size: 20px;
+}
+.img3 .deal-image-left-btn {
+  font-size: 16px;
+}
+.latest-deal {
+  margin-bottom: 30px;
+}
 }
