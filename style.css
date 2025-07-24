@@ -344,7 +344,7 @@
 .deal-content1{
     margin: 0 auto;
 }
-.img3 .deal-image-left {
+.img3 .deal-image-left,.join-container-title {
   font-size: 20px;
 }
 .img3 .deal-image-left-btn {
@@ -355,4 +355,13 @@
 }
 
       /* --------------------Join section----------------- */
+      .join-container input{
+        width: 218px;
+      }
+      .join-btn{
+padding: 13px 30px;
+      }
+      .join{
+        height: 275px;
+      }
 }
