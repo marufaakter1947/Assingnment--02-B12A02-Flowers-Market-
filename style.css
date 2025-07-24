@@ -219,6 +219,42 @@
   font-size: 28px;
 }
 
+      /* --------------------Join section----------------- */
+      .join{
+        width: 100%;
+        background-image: url(./assets/news-letter-bg.png);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        height: 533px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .join-container-title{
+        font-size: 3.12rem;
+        font-weight: bold;
+        color: #FFFFFF;
+          font-family: "Noto Serif", serif;
+          text-align: center;
+      }
+      .join-container input{
+        padding: 12px 20px;
+        width: 644px;
+        border: none;
+      }
+      .join-btn{
+        padding: 13px 50px;
+        background-color: #E95A08;
+        border: none;
+        color: #FFFFFF;
+      }
+.input-field{
+    display: flex;
+    margin-top: 23px;
+}
+
+
+
 /* ----------Media Queries---------- */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -317,4 +353,6 @@
 .latest-deal {
   margin-bottom: 30px;
 }
+
+      /* --------------------Join section----------------- */
 }
